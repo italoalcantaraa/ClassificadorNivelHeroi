@@ -2,10 +2,10 @@ import prompt from 'prompt-sync';
 let input = prompt();
 
 
-console.log("Informe a quantiade de vitórias: ");
+console.log("Informe a quantidade de vitórias: ");
 let vitorias = Number(input());
 
-console.log("Informe a quantiade de derrotas: ");
+console.log("Informe a quantidade de derrotas: ");
 let derrotas = Number(input());
 
 let saldoRankeadas = calcSaldoRankeada(vitorias, derrotas);
@@ -31,4 +31,4 @@ console.log("O Herói tem de saldo de " + saldoRankeadas + " está no nível de 
 
 function calcSaldoRankeada(qtdVitorias, qtdDerrotas) {
     return qtdVitorias - qtdDerrotas;
-}
+}   
