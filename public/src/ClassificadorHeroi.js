@@ -21,9 +21,9 @@ else if (xp >= 7001 && xp <= 8000)
     levelXp = "Platina"
 else if (xp >= 8001 && xp <= 9000)
     levelXp = "Ascendente"
-else if (xp >= 9001 && xp <= 1000) {
+else if (xp >= 9001 && xp <= 10000) {
     levelXp = "Imortal"
-} else if (xp >= 1001) {
+} else if (xp >= 10001) {
     levelXp = "Radiante"
 }
 
